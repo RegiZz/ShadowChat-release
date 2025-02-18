@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    >
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/input_background"
+        android:textColor="@color/white"
+        android:textColorHint="#A0A0A0"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hasło"
+        android:background="@drawable/input_background"
+        android:textColor="@color/white"
+        android:textColorHint="#A0A0A0"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5216AD"
+        android:text="Zaloguj się" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#5216AD"
+        android:text="Rejestracja" />
+</LinearLayout>

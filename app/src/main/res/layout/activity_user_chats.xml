@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <Button
+        android:id="@+id/createChatButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Stwórz nowy chat"
+        android:textColor="@color/white"
+        android:backgroundTint="#5216AD"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/joinChatButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Dołącz do czatu"
+        android:textColor="@color/white"
+        android:backgroundTint="#5216AD"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1dp"
+        android:background="@color/transparent"
+        android:padding="8dp" />
+</LinearLayout>

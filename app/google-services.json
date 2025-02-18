@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83383793507",
+    "project_id": "shadowchat-42ab9",
+    "storage_bucket": "shadowchat-42ab9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83383793507:android:e383e630956686ce814556",
+        "android_client_info": {
+          "package_name": "com.shadowchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCmE98z5SiOZP40T0BqsTWhvS-6ugK58I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

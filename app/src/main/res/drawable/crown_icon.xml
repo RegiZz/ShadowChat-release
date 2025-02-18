@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Korona, wyśrodkowana w obrębie 48x48dp -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,34 L36,34 L40,22 L32,24 L28,14 L24,22 L20,14 L16,24 L8,22 Z" />
+</vector>
