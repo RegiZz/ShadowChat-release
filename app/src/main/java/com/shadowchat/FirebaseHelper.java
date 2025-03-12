@@ -63,6 +63,8 @@ public class FirebaseHelper {
         databaseReference.child("chats").child(chatID).child("members").child(userID).setValue(true)
                 .addOnSuccessListener(aVoid -> listener.onUserAdded(true))
                 .addOnFailureListener(e -> listener.onUserAdded(false));
+
+        databaseReference.child("chatList").child(chatID).child("members").child(userID).setValue(true);
     }
 
     public void getChatList(String userID, ValueEventListener listener) {

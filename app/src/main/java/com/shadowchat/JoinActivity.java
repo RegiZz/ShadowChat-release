@@ -13,7 +13,6 @@ public class JoinActivity extends AppCompatActivity {
 
     private EditText inviteCodeText;
     private Button joinChatButton;
-
     private ImageButton btnBack;
     private FirebaseHelper firebaseHelper;
     private SharedPreferencesHelper sharedPreferencesHelper;
